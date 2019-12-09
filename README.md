@@ -1,10 +1,10 @@
 # Rust WebGL WASM Line Plotter
 
-A sample project currently in development for learning how to use rust and WebGL together
+A sample project currently in development for learning how to use Rust and WebGL together
 
 ![img](./img.png)
 
-This image was rendered in the browser with the following `draw_line` calls
+Lines inside of the canvas were drawn with the following `draw_line` calls
 
 ```
     canvas.draw_line(300.0, 250.0, 400.0, 200.0, "black");
@@ -27,7 +27,9 @@ You can build the example locally with:
 $ npm run serve
 ```
 
-and then visit http://localhost:8080 in a browser to run the example!
+then visit http://localhost:8080 in a browser to run the example
+
+Feel free to reach out with any feedback or questions!
 
 This project was inspired by the following resources
 * [WebGL Fundamentals](https://webglfundamentals.org/)
